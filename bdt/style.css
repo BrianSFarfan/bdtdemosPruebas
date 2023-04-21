@@ -628,7 +628,8 @@ img {
 .header-area .academy-main-menu .calling-info .call-center a i {
     width: 45px;
     height: 45px;
-    border: 2px solid #ffffff;
+    border-left: 0;
+    border: 1px solid #ffffff;
     border-radius: 50%;
     display: inline-block;
     line-height: 41px;
