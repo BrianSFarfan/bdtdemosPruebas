@@ -623,6 +623,9 @@ img {
     border: 1px solid white;
     /* box-shadow: 0px 0px 4px #ffffff40; */
 }
+.header-area .academy-main-menu .calling-info .call-center a:hover {
+    transform: scale(1.03);
+}
 }
 
 .header-area .academy-main-menu .calling-info .call-center a i {
