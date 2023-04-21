@@ -1912,3 +1912,17 @@ img {
     border: 2px solid #5654e6;
     width: 300px !important;
 }
+
+.icon-telephone-2{
+    width: 45px;
+    height: 45px;
+    border-left: 0;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 41px;
+    font-size: 18px;
+    text-align: center;
+    margin-right: 20px;
+}
+
