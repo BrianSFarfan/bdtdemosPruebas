@@ -612,9 +612,17 @@ img {
 
 .header-area .academy-main-menu .calling-info .call-center a {
     color: #ffffff;
-    font-size: 14px;
     font-weight: 700;
-    display: block;
+    display: flex;
+    border-radius: 50px;
+    background: linear-gradient(to left, #502ced, #5654e6);
+    align-items: center;
+    justify-content: center;
+    padding-right: 30px;
+    border-left: none;
+    border: 1px solid white;
+    /* box-shadow: 0px 0px 4px #ffffff40; */
+}
 }
 
 .header-area .academy-main-menu .calling-info .call-center a i {
@@ -636,9 +644,9 @@ img {
 }
 
 @media only screen and (max-width: 767px) {
-    .header-area .academy-main-menu .calling-info .call-center a span {
+   /* .header-area .academy-main-menu .calling-info .call-center a span {
         display: none;
-    }
+    }*/
 }
 
 .header-area .academy-main-menu .calling-info .call-center:before {
