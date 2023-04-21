@@ -601,9 +601,7 @@ img {
     background: #502ced;
     background: -webkit-linear-gradient(to right, #502ced, #5654e6);
     background: linear-gradient(to right, #502ced, #5654e6);
-    padding: 0 40px;
-    line-height: 85px;
-    height: 85px;
+    padding: 20px 40px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
