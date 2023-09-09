@@ -328,6 +328,7 @@ img {
 }
 
 @media only screen and (max-width: 767px) {
+
     .mfp-image-holder .mfp-close,
     .mfp-iframe-holder .mfp-close {
         right: 0;
@@ -623,6 +624,7 @@ img {
     border: 1px solid white;
     /* box-shadow: 0px 0px 4px #ffffff40; */
 }
+
 .header-area .academy-main-menu .calling-info .call-center a:hover {
     transform: scale(1.03);
 }
@@ -648,7 +650,7 @@ img {
 }
 
 @media only screen and (max-width: 767px) {
-   /* .header-area .academy-main-menu .calling-info .call-center a span {
+    /* .header-area .academy-main-menu .calling-info .call-center a span {
         display: none;
     }*/
 }
@@ -782,6 +784,7 @@ img {
 }
 
 @media only screen and (max-width: 767px) {
+
     .hero-slides .owl-prev,
     .hero-slides .owl-next {
         width: 40px;
@@ -826,6 +829,26 @@ img {
     }
 }
 
+.btn-action {
+    height: 75px;
+    width: 100%;
+}
+.btn-action:hover {
+    padding-bottom: 10px;
+    background: white;
+}
+.btn-action:hover *{
+    color: #502ced !important;
+    fill: #502ced !important;
+}
+
+.btn-action-group{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex: auto;
+    max-width: 100%;
+}
 .top-features-area .features-content {
     position: relative;
     z-index: 50;
@@ -833,13 +856,11 @@ img {
     border-radius: 20px;
     background: -webkit-linear-gradient(to right, #502ced, #5654e6);
     background: linear-gradient(to right, #502ced, #5654e6);
-    padding: 40px 15px;
+    /* padding: 20px 15px; */
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-}
-
-.top-features-area .features-content .single-top-features {
-    border-right: 2px solid #ffffff;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px #00000034;
 }
 
 @media only screen and (max-width: 767px) {
@@ -1412,6 +1433,7 @@ img {
 }
 
 @media only screen and (max-width: 767px) {
+
     .about-slides .owl-prev,
     .about-slides .owl-next {
         width: 36px;
@@ -1916,7 +1938,7 @@ img {
     width: 300px !important;
 }
 
-.icon-telephone-2{
+.icon-telephone-2 {
     width: 45px;
     height: 45px;
     border-left: 0;
@@ -1928,4 +1950,3 @@ img {
     text-align: center;
     margin-right: 20px;
 }
-
